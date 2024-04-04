@@ -25,6 +25,7 @@ h3, h4, h5, h6, a{
 p, ul, li, form, .btn{
     font-family: 'Lato', sans-serif;
     color: $lightgray;
+    font-size: 18px;
 }
 
 // general
@@ -62,21 +63,6 @@ body{
 .info{
     height: 35vh;
     width: 100vw;
-}
-
-.cruise{
-    background-image: url(https://images.unsplash.com/photo-1572083115813-c6281088ae6a?q=80&w=2292&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-color: $darkgray;
-    margin-right: 1rem;
-    background-repeat: none;
-    background-position: center;
-}
-
-.commercial{
-    background-image: url(https://images.unsplash.com/photo-1626869709532-0d1462483e23?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-    background-color: $darkgray;
-    background-repeat: none;
-    background-position: center;
 }
 
 a:hover{
