@@ -1,3 +1,111 @@
-/* Your styles go here */
+// colors
+$primary: #c4d600;
+$secondary: #28334a;
+$black: #101820;
+$lightgray: #d9e1e2;
+$darkgray: #53565a;
+
+// variables
+
+
+
+// fonts 
+h1, h2{
+    font-family: 'Ridley Grotesk', sans-serif;
+    text-transform: uppercase;
+    color: $primary;
+}
+
+h3, h4, h5, h6, a{
+    font-family: 'Ridley Grotesk Extrabold', sans-serif;
+    text-transform: uppercase;
+    color: $secondary;
+}
+
+p, ul, li, form, .btn{
+    font-family: 'Lato', sans-serif;
+    color: $lightgray;
+    font-size: 18px;
+}
+
+// general
+
+body{
+    min-height: 100vh;
+}
+
+.jumbotron-home{
+    background-image: url(https://images.unsplash.com/photo-1517633350975-9444b4a80782?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 40vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron-about{
+    background-image: url(https://images.unsplash.com/photo-1529776166548-315929571406?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 40vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron-contact{
+    background-image: url(https://images.unsplash.com/photo-1556224542-250166cc2285?q=80&w=1744&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 40vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.info{
+    height: 35vh;
+    width: 100vw;
+}
+
+a:hover{
+    text-decoration: underline 3px $primary;
+    font-size: 1.05rem;
+}
+
+.card{
+    max-width: 30vw;
+    height: 15rem;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+// media queries 
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    img{
+        width: 100%;
+    }
+
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+
+// imports
 @import "bootstrap/scss/bootstrap.scss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
